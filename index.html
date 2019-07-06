@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <meta name="keywords" content="Испания,иммиграция,переезд,ВНЖ,ПМЖ,резиденция,NIE,НИЕ,переехать в Испанию,эмиграция" />
+        <title>Ответы на вопросы по иммиграции в Испанию и жизни в Испаии</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script src="Answer.js"></script>
+        <link rel="stylesheet" href="Answer.css">
+    </head>
+    <body>
+        <div class="text-center mt-5">
+            <h1>Ответы на вопросы про иммиграцию в Испанию и жизнь в Испании</h1>
+    
+            <br/>
+    
+            <p class="text-default text-justify col-lg-5 col-md-8 col-sm-10 col-xl-4 m-center">
+                Вы хотите переехать в Испанию, но не знаете с чего начать? В этом справочнике Вы сможете найти ответы на многие вопросы,
+                часто возникающие у потенциальных иммигрантов в Испанию. Просто начните вводить ваш запрос, используя ключевые слова по 
+                интересующей Вас теме, например "номер иностранца", "варианты переезда", "страховка" и т.д. и выберите конкретный вопрос.
+            </p>
+    
+            <br/>
+
+            <hr>
+
+            <div class="container-fluid">
+                <input class="m-center col-lg-5 col-md-8 col-sm-10 col-xl-4" id="question" placeholder="Начните вводить ключевое слово..." />
+            </div>
+        </div>
+
+        <div class="modal fade" id="answerModal" tabindex="-1" role="dialog" aria-labelledby="answerModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="answerModalLabel">Ответ на Ваш вопрос</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <h3 class="text-center" id="questionText"></h3>
+                            <p class="mt-3 text-justify" id="answerText"></p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        <div class="modal fade" id="questionModal" tabindex="-1" role="dialog" aria-labelledby="questionModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="questionModalLabel">Предложить вопрос / исправление</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="text-justify">
+                            Не нашли ответа на Ваш вопрос по иммиграции в Испанию или жизни в Испании? 
+                            Хотите предложить исправление к существующему ответу на какой-либо из вопросов?
+                            Отправьте мне Ваш вопрос или исправление используя форму ниже
+                            и вполне возможно я добавлю ответ на Ваш вопрос в справочник в ближайшее время или исправлю существующий ответ в 
+                            соответствии с Вашими комментариями. <stron>Спасибо за участие.</stron>
+                        </div>
+                        <form class="mt-3" id="newQuestionForm" action="mailto:pspainanswer@gmail.com?subject=Вопрос(исправление) для справочника">
+                            <textarea name="newQuestion" id="newQuestion" placeholder="Введите здесь Ваш вопрос или комментарии..."></textarea>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" onclick="Answer.sendQuestion();" class="btn btn-primary">Отправить вопрос</button>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="wishlistModal" tabindex="-1" role="dialog" aria-labelledby="wishlistModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="wishlistModalLabel">Отправить благодарность</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="text-justify">
+                            <p>
+                                Если данный справочник или мой YouTube - канал показался Вам интересным, полезным или помог вам переехать в Испанию 
+                                и Вы хотите как-то меня отблагодарить, то лучшим вариантом будет отправить мне благодарность через Amazon Wishlist.
+                            </p>
+                            <p>
+                                Это список, в который я добавляют интересные для меня вещи(в основном - книги), которые мне бы хотелось иметь, но тратить
+                                на них деньги не хочется. Amazon позволит Вам отправить мне что-либо из этого списка в подарок не раскрывая при этом
+                                мой адрес.
+                            </p>
+                            <p>
+                                Пожалуйста, пишите в комментариях к заказу Ваше имя и контакты, если есть желание пообщаться. <strong>Спасибо :)</strong>.
+                            </p>
+                            
+                            <div class="mt-4 text-center">
+                                <a href="https://www.amazon.es/hz/wishlist/ls/1ECD8Z1UVQ0O1/ref=nav_wishlist_lists_1?_encoding=UTF8&type=wishlist">Мой Amazon Wishlist</a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <br/>
+
+        <footer class="text-center">
+            Ответы на многие вопросы также доступны на <a href="http://youtube.com/PavelSavinovEs">моём канале YouTube</a>.
+            
+            <div class="mt-4 mb-5 m-center">
+                <button class="btn btn-lg btn-warning mt-2" data-toggle="modal" data-target="#questionModal">
+                    Предложить вопрос / исправление
+                </button>
+                <button class="btn btn-lg btn-success mt-2" data-toggle="modal" data-target="#wishlistModal">
+                    Отправить благодарность
+                </button>                
+            </div>
+
+            <br>
+            <div class="mt-3">
+                2019, <a href="callto://psavinov.home">Pavel Savinov</a>
+            </div>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,43 @@
+#question {
+	font-size: 20px;
+	background-color: aliceblue;
+	border: 2px solid lightslategrey;
+	border-radius: 5px;
+}
+
+#newQuestion {
+	font-size: 16px;
+	background-color: aliceblue;
+	border: 2px solid lightslategrey;
+	border-radius: 5px;
+	width: 100%;
+	height: 20vh;
+}
+
+.m-center {
+	margin: 0 auto;
+	float: none;
+}
+
+.ui-menu-item-wrapper {
+	font-weight: bold;
+}
+
+.ui-widget.ui-widget-content {
+	border: 2px solid lightslategrey !important;
+	border-radius: 5px;
+}
+
+@media (max-width: 640px) {
+	footer {
+		padding: 1rem;
+	}
+
+	footer .btn {
+		width: 100%;
+	}
+
+	#question {
+		font-size: 18px;
+	}
+}
