@@ -19,8 +19,8 @@
 	float: none;
 }
 
-.ui-menu-item-wrapper {
-	font-weight: bold;
+.ui-menu-item-wrapper, .ui-state-active {
+	font-weight: bold !important;
 }
 
 .ui-widget.ui-widget-content {
