@@ -25,7 +25,7 @@ var Answer = {
 				link += parts[1] + "/";
 			} 
 	
-			link += "?q=" + createSlug(question);
+			link += createSlug(question);
 
 			$('#permalink').attr('href', link);
 	
