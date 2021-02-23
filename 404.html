@@ -1,7 +1,17 @@
 <script>
     (function(){
-        var slug = location.pathname.slice(1);
+        var parts = location.pathname.split("/");
+        
+        var slug = parts[parts.length - 1];
 
-        location.href = "/q=" + slug;
+        var link = "/";
+
+        if (parts.length === 3) {
+            link += parts[1] + "/";
+        } 
+
+        link += slug;
+
+        location.href = link;
     })();
 </script>

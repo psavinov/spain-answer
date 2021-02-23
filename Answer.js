@@ -14,7 +14,20 @@ var Answer = {
 		if (answerText) {
 			$('#questionText').text(question);
 			$('#answerText').html(answerText);
-			$('#permalink').attr('href', '/?q=' + createSlug(question));
+
+			var parts = location.pathname.split("/");
+        
+			var slug = parts[parts.length - 1];
+	
+			var link = "/";
+	
+			if (parts.length === 3) {
+				link += parts[1] + "/";
+			} 
+	
+			link += "?q=" + createSlug(question);
+
+			$('#permalink').attr('href', link);
 	
 			$('#answerModal').modal('toggle');
 	
