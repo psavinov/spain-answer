@@ -9,15 +9,14 @@ var Answer = {
 	},
 
 	showAnswer: function(data, question) {
-		var answerText = data[question];
+		var questionObject = data.find(item => item.question === question);
+		var answerText = questionObject.answer || "";
 
 		if (answerText) {
 			$('#questionText').text(question);
 			$('#answerText').html(answerText);
 
 			var parts = location.pathname.split("/");
-        
-			var slug = parts[parts.length - 1];
 	
 			var link = "/";
 	
@@ -69,13 +68,13 @@ $(document).ready(
 			function(data) {
 				$("#question").autocomplete({
 					source: function (search, response) {
-						response(Object.keys(data).filter(
-							function(key) {
-								return key.toLowerCase().indexOf(search.term.toLowerCase()) != -1;
+						response(data.filter(
+							function(questionObject) {
+								return questionObject.question.toLowerCase().indexOf(search.term.toLowerCase()) != -1;
 							}
 						).map(
-							function(value) {
-								return {label: value.toLowerCase(), value: value};
+							function(questionObject) {
+								return {label: questionObject.question.toLowerCase(), value: questionObject.question};
 							}
 						));
 					},
@@ -91,11 +90,11 @@ $(document).ready(
 				var questionSlug = (results !== null) ? results[1] || 0 : false;
 
 				if (questionSlug) {
-					var question = Object.keys(data).find(function(item) {
-						return createSlug(item) === questionSlug;
+					var questionObject = data.find(function(item) {
+						return createSlug(item.question) === questionSlug;
 					});
 
-					Answer.showAnswer(data, question);
+					Answer.showAnswer(data, questionObject.question);
 				}
 			}
 		);
