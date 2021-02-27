@@ -773,5 +773,10 @@
         "id": 155,
         "question": "Где взять ситу на сдачу отпечатков пальцев / оформление карты резидента?",
         "answer": "Ситу (предварительную запись) на сдачу отпечатков пальцев, а также на получение готовой карты резидента можно <a href=\"https://sede.administracionespublicas.gob.es/icpplus/index.html\">здесь</a>."
+    },
+    {
+        "id": 156,
+        "question": "Какой уровень безработицы?",
+        "answer": "Текущий уровень безработицы в Испании:<br/><iframe style=\"height:380px; width:100%; border:1px solid black; overflow: scroll;\" src=\"https://www.ine.es/grafhome/epa-barras.html?lang=es&nult=13&geo=ES&anim=true&posColor=EEF2F8&colInd1=BAC8DF&shw1=false\"></iframe>        "
     }
 ]
