@@ -14,7 +14,7 @@ const LETTERS = {
 	"я": "ya", "?": "", " ": "-"
 };
 
-const SITE_ROOT = "http://spain-answer.xyz/"
+const SITE_ROOT = "http://www.spain-answer.xyz/"
 
 const createSlug = function(input) {
 	var output = "";
