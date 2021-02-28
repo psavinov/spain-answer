@@ -31,6 +31,15 @@ var Answer = {
 			$('#answerModal').modal('toggle');
 	
 			$('#question').val('');
+
+			if (gtag) {
+				gtag('event', 'page_view', {
+					page_title: question,
+					page_location: 'http://spain-answer.xyz' + link,
+					page_path: link,
+					send_to: 'G-RV7NR0PTD7'
+				});
+			}
 		}
 	}
 };
