@@ -41,6 +41,11 @@ questions.forEach(question => {
     array.push('</url>');
 });
 
+array.push("<url>");
+array.push(`<loc>${SITE_ROOT}</loc>`);
+array.push(`<lastmod>${lastMod}</lastmod>`);
+array.push('</url>');
+
 array.push("</urlset>");
 
 fs.writeFileSync('./sitemap.xml',array.join('\n'));
