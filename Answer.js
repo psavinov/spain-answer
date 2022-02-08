@@ -1,5 +1,5 @@
-var Answer = {
-	sendQuestion: function() {
+const Answer = {
+	sendQuestion: () => {
 		$('#newQuestionForm').submit();
 
 		$('#questionModal').modal('toggle');
@@ -8,17 +8,17 @@ var Answer = {
 		alert('Спасибо за Ваш вопрос / исправление!');
 	},
 
-	showAnswer: function(data, question) {
-		var questionObject = data.find(item => item.question === question);
-		var answerText = questionObject.answer || "";
+	showAnswer: (data, question) => {
+		const questionObject = data.find(item => item.question === question);
+		const answerText = questionObject.answer || "";
 
 		if (answerText) {
 			$('#questionText').text(question);
 			$('#answerText').html(answerText);
 
-			var parts = location.pathname.split("/");
+			const parts = location.pathname.split("/");
 	
-			var link = "/";
+			let link = "/";
 	
 			if (parts.length === 3) {
 				link += parts[1] + "/";
@@ -44,7 +44,7 @@ var Answer = {
 	}
 };
 
-var LETTERS = {
+const LETTERS = {
     "а": "a", "б": "b", "в": "v", "г": "g",
     "д": "d", "е": "e", "ё": "yo", "ж": "zh",
     "з": "z", "и": "i", "й": "yi", "к": "k",
@@ -56,52 +56,50 @@ var LETTERS = {
 	"я": "ya", "?": "", " ": "-"
 };
 
-var createSlug = function(input) {
-	var output = "";
+const createSlug = (input) => {
+	let output = "";
 
-	var lowercase = input.toLowerCase();
+	const lowercase = input.toLowerCase();
 
-	for (var k = 0; k<lowercase.length; k++) {
-		var char = LETTERS[lowercase[k]] || "";
-
-		output += char;
+	for (let k = 0; k < lowercase.length; k++) {
+		output += (LETTERS[lowercase[k]] || "");
 	}
 
 	return output;
 };
 
 $(document).ready(
-	function() {
+	() => {
 		$.getJSON(
 			"questions.json",
-			function(data) {
+			(data) => {
 				$("#question").autocomplete({
-					source: function (search, response) {
+					source: (search, response) => {
 						response(data.filter(
-							function(questionObject) {
-								return questionObject.question.toLowerCase().indexOf(search.term.toLowerCase()) != -1;
-							}
+							(questionObject) => 
+								questionObject.question.toLowerCase().indexOf(search.term.toLowerCase()) !== -1
+							
 						).map(
-							function(questionObject) {
-								return {label: questionObject.question.toLowerCase(), value: questionObject.question};
-							}
+							(questionObject) => ({
+								label: questionObject.question.toLowerCase(), value: questionObject.question
+							})
 						));
 					},
 					minLength: 2,
-					select: function(event, ui) {
+					select: (event, ui) => {
 						if (ui.item.value.length) {
 							Answer.showAnswer(data, ui.item.value);
 						}
 					}
 				});
 
-				var results = (/\?q=(.*)/g).exec(window.location.search);
-				var questionSlug = (results !== null) ? results[1] || 0 : false;
+				const results = (/\?q=(.*)/g).exec(window.location.search);
+				const questionSlug = (results !== null) ? results[1] || 0 : false;
 
 				if (questionSlug) {
-					var questionObject = data.find(function(item) {
-						return createSlug(item.question) === questionSlug;
-					});
+					const questionObject = data.find((item) => 
+						createSlug(item.question) === questionSlug
+					);
 
 					Answer.showAnswer(data, questionObject.question);
 				}
@@ -110,7 +108,7 @@ $(document).ready(
 
 		$('#answerModal').on(
 			'hidden.bs.modal', 
-			function() {
+			() => {
 				$('#question').val('');
 			}
 		);

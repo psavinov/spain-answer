@@ -57,7 +57,7 @@
     {
         "id": 12,
         "question": "Как получить номер иностранца (NIE / НИЕ)?",
-        "answer": "Существуют 3 способа получения номера иностранца:<p>1. Получение номера иностранца в консульстве Испании в Вашей стране.</p><p>2. Получение номера иностранца в отделении миграционной службы в Испании</p><p>3. Получение <b>временного</b> номера иностранца в налоговой службе в Испании.</p><p>Во всех трех случаях понадобится заполненная форма <a target=\"_blank\" href=\"http://extranjeros.mitramiss.gob.es/es/ModelosSolicitudes/Mod_solicitudes2/15-Formulario_NIE_y_certificados_FEB19.pdf\">EX-15</a>, оплаченная пошлина формы . 790 052, объяснение необходимости получения номера (бизнес / учеба / крупная покупка / и т.д.)</p>"
+        "answer": "Существуют 3 способа получения номера иностранца:<p>1. Получение номера иностранца в консульстве Испании в Вашей стране.</p><p>2. Получение номера иностранца в отделении миграционной службы в Испании</p><p>3. Получение <b>временного</b> номера иностранца в налоговой службе в Испании.</p><p>Во всех трех случаях понадобится заполненная форма <a target=\"_blank\" href=\"https://extranjeros.inclusion.gob.es/ficheros/Modelos_solicitudes/mod_solicitudes2/15-Formulario_NIE_y_certificados.pdf\">EX-15</a>, оплаченная пошлина формы . 790 052, объяснение необходимости получения номера (бизнес / учеба / крупная покупка / и т.д.)</p>"
     },
     {
         "id": 13,
@@ -247,7 +247,7 @@
     {
         "id": 50,
         "question": "Как открыть ИП?",
-        "answer": "Если Ваш статус в Испании позволяет открыть autonomo (ИП), то сама процедура несложная. Если у вас есть цифровой сертификат (certificado digital), то всю процедуру можно сделать через Интернет. Минимально (для любой деятельности) необходимо зарегистрироваться в Seguridad Social в режиме RETA (для ИП) форма TA0521, онлайн это можно сделать <a target=\"_blank\" href=\"https://sede.seg-social.gob.es/wps/portal/sede/sede/Ciudadanos/CiudadanoDetalle/!ut/p/z1/rVRNT8MwDP0rXHaM4qRtkh7LNHUbG9M2OtZeUJpmEMTSfZR9_HtSQCCB1iGN3OzY7zn2c3CG5zizcmceZWVKK1-cnWbswSPMJyGQQQy9DkTJ8CYJvbEX9wie4Qxnylar6gmnW13oB1XaSltTlNsW1I4WKPNayELa2iMX5sVI5dCv9JWxW7Uxq9pqAQUmeFjDOUeBUxIKqjUPEKdcIl-QAIWBylEuCoemKQS-h--b6oMQcNZc_kc-nDjR2fzU5fPvAIDYZSXXMJ0BJRC7AndG73Fiy83StXP6_bxcUVef1ghYQZGvgCMJYoFCSX1GmKKEB7gLPxliMg5qhpHoTcYEBL-Q4QM-GAkgfaADYEMBUTieJoNb4gH3L4TvNzaQslpgdDNsDx8drKyekLGLEs9PqQTPgZ--w6l5Xq-zyAmy1uChwvOLFNnAdV_34Yzy3gOapHWuN1O9_T3-ax8iMrpjtNshMGqYz5_2p3H8MZAL4fvn9uffZ_b5i6yWS-EdDUr7u_3-brFs5-J4CHI26X6Z-zfMXhyo/dz/d5/L2dBISEvZ0FBIS9nQSEh/\">здесь</a>, а также представить в налоговую службу Испании 2 формы - 036 (регистрация в реестре предпринимателей) и 037 (регистрация как ИП для налогообложения, онлайн это можно сделать <a target=\"_blank\" href=\"https://www.agenciatributaria.gob.es/AEAT.sede/tramitacion/G322.shtml\">здесь</a>. Дальнейшие шаги зависят от вида деятельности, наличия у Вас наемных работников и прочих особенностей Вашей будущей деятельности."
+        "answer": "Если Ваш статус в Испании позволяет открыть autonomo (ИП), то сама процедура несложная. Если у вас есть цифровой сертификат (certificado digital), то всю процедуру можно сделать через Интернет. Минимально (для любой деятельности) необходимо зарегистрироваться в Seguridad Social в режиме RETA (для ИП) форма TA0521, онлайн это можно сделать <a target=\"_blank\" href=\"https://sede.seg-social.gob.es/wps/portal/sede/sede/Ciudadanos/CiudadanoDetalle/!ut/p/z1/rVRNT8MwDP0rXHaM4qRtkh7LNHUbG9M2OtZeUJpmEMTSfZR9_HtSQCCB1iGN3OzY7zn2c3CG5zizcmceZWVKK1-cnWbswSPMJyGQQQy9DkTJ8CYJvbEX9wie4Qxnylar6gmnW13oB1XaSltTlNsW1I4WKPNayELa2iMX5sVI5dCv9JWxW7Uxq9pqAQUmeFjDOUeBUxIKqjUPEKdcIl-QAIWBylEuCoemKQS-h--b6oMQcNZc_kc-nDjR2fzU5fPvAIDYZSXXMJ0BJRC7AndG73Fiy83StXP6_bxcUVef1ghYQZGvgCMJYoFCSX1GmKKEB7gLPxliMg5qhpHoTcYEBL-Q4QM-GAkgfaADYEMBUTieJoNb4gH3L4TvNzaQslpgdDNsDx8drKyekLGLEs9PqQTPgZ--w6l5Xq-zyAmy1uChwvOLFNnAdV_34Yzy3gOapHWuN1O9_T3-ax8iMrpjtNshMGqYz5_2p3H8MZAL4fvn9uffZ_b5i6yWS-EdDUr7u_3-brFs5-J4CHI26X6Z-zfMXhyo/dz/d5/L2dBISEvZ0FBIS9nQSEh/\">здесь</a>, а также представить в налоговую службу Испании 2 формы - 036 (регистрация в реестре предпринимателей) и 037 (регистрация как ИП для налогообложения, онлайн это можно сделать <a target=\"_blank\" href=\"https://www.agenciatributaria.gob.es/AEAT.sede/tramitacion/G322.shtml\">здесь</a>. Дальнейшие шаги зависят от вида деятельности, наличия у Вас наемных работников и прочих особенностей Вашей будущей деятельности. Существует также упрощённый государственный сервис, через который можно зарегистрировать ИП и/или компанию используя принцип одного окна - <a href=\"https://paeelectronico.es/\">Punto de Atencion al Emprendedor</a>."
     },
     {
         "id": 51,
@@ -332,12 +332,12 @@
     {
         "id": 67,
         "question": "Как переехать по работе?",
-        "answer": "Существуют различные варианты переезда в Испанию по работе.<p>1. Оформление обычной рабочей визы. Необходимо найти работодателя, который оформит прошение в министерство труда на найм иностранного работника, при этом работодатель должен будет доказать, что такого специалиста не возможно найти в Испании, либо что специалист входит в <a target=\"_blank\" href=\"https://www.sepe.es/SiteSepe/contenidos/empresas/profesiones_demandadas/pdf/CatalogoOcupacionesDificilCobertura.pdf\">перечень специальных профессий</a> для определенной провинци. На июль 2019 оформление подобной визы занимает примерно 6-8 месяцев.</p><p>2. Виза для высококвалифицированного специалиста. Также необходим работодатель, готовый нанять сотрудника, но нет ограничений из п.(1), минимальная зарплата для найма специалиста - 40077 евро в год. Подробное описание процесса можно посмотреть <a target=\"_blank\" href=\"http://extranjeros.mitramiss.gob.es/es/UnidadGrandesEmpresas/ley14_2013/tripticos/triptico-profesionales-altamente-cualificados-RUSO.pdf\">здесь</a>.</p><p>3. Виза для сезонных работ. Дает право проживания и работы в Испании на срок до 9 месяцев, с правом 1 продления также на 9 месяцев. Эта виза не позволяет перейти на другой тип ВНЖ и не идет в зачет для ПМЖ и гражданства.</p>"
+        "answer": "Существуют различные варианты переезда в Испанию по работе.<p>1. Оформление обычной рабочей визы. Необходимо найти работодателя, который оформит прошение в министерство труда на найм иностранного работника, при этом работодатель должен будет доказать, что такого специалиста не возможно найти в Испании, либо что специалист входит в <a target=\"_blank\" href=\"https://www.sepe.es/SiteSepe/contenidos/empresas/profesiones_demandadas/pdf/CatalogoOcupacionesDificilCobertura.pdf\">перечень специальных профессий</a> для определенной провинци. На июль 2019 оформление подобной визы занимает примерно 6-8 месяцев.</p><p>2. Виза для высококвалифицированного специалиста. Также необходим работодатель, готовый нанять сотрудника, но нет ограничений из п.(1), минимальная зарплата для найма специалиста - 40077 евро в год. Подробное описание процесса можно посмотреть <a target=\"_blank\" href=\"https://extranjeros.inclusion.gob.es/ficheros/UnidadGrandesEmpresas/ley_14_2013/tripticos/triptico-profesionales-altamente-cualificados-RUSO.pdf\">здесь</a>.</p><p>3. Виза для сезонных работ. Дает право проживания и работы в Испании на срок до 9 месяцев, с правом 1 продления также на 9 месяцев. Эта виза не позволяет перейти на другой тип ВНЖ и не идет в зачет для ПМЖ и гражданства.</p>"
     },
     {
         "id": 68,
         "question": "Можно ли получить ВНЖ, не выезжая из Испании?",
-        "answer": "Изменить иммиграционный статус, не выезжая из Испании, можно, оформив ВНЖ по закону 14/2013 - специалисты, инвесторы, исследователи, инновационный бизнес. Полный список с описаниями смотрите <a target=\"_blank\" href=\"http://extranjeros.mitramiss.gob.es/es/UnidadGrandesEmpresas/ley14_2013/index.html\">здесь</a>. Также туристический статус можно изменить на студенческое пребывание. Для этого необходимо соблюсти условия получения студенческого пребывания и иметь в запасе минимум 30 дней легального туристического статуса."
+        "answer": "Изменить иммиграционный статус, не выезжая из Испании, можно, оформив ВНЖ по закону 14/2013 - специалисты, инвесторы, исследователи, инновационный бизнес. Полный список с описаниями смотрите <a target=\"_blank\" href=\"https://extranjeros.inclusion.gob.es/es/UnidadGrandesEmpresas/ley14_2013/index.html\">здесь</a>. Также туристический статус можно изменить на студенческое пребывание. Для этого необходимо соблюсти условия получения студенческого пребывания и иметь в запасе минимум 30 дней легального туристического статуса."
     },
     {
         "id": 69,
@@ -442,12 +442,12 @@
     {
         "id": 89,
         "question": "Какие условия для переезда высококвалифицированных специалистов?",
-        "answer": "Описание и условия переезда высококвалифицированных специалистов смотрите <a target=\"_blank\" href=\"http://extranjeros.mitramiss.gob.es/es/UnidadGrandesEmpresas/ley14_2013/tripticos/triptico-profesionales-altamente-cualificados-RUSO.pdf\">здесь</a>. "
+        "answer": "Описание и условия переезда высококвалифицированных специалистов смотрите <a target=\"_blank\" href=\"https://extranjeros.inclusion.gob.es/ficheros/UnidadGrandesEmpresas/ley_14_2013/tripticos/triptico-profesionales-altamente-cualificados-RUSO.pdf\">здесь</a>. "
     },
     {
         "id": 90,
         "question": "Как оформить воссоединение с семьей?",
-        "answer": "Воссоединение семьи в общем режиме (когда воссоединяющий - не гражданин ЕС) делается по <a target=\"_blank\" href=\"http://extranjeros.mitramiss.gob.es/es/InformacionInteres/InformacionProcedimientos/Ciudadanosnocomunitarios/hoja012/index.html\">этой процедуре</a>. Прежде всего, воссоединяющий подает заявление на воссоединение в миграционную службу по месту пребывания в Испании. В случае положительного решения воссоединяемый запрашивает визу в консульстве Испании в своей стране. Воссоединяемыми могут быть супруг(а), дети (включая приемных) и родители 65+ при условии их финансовой зависимости от воссоединяющего."
+        "answer": "Воссоединение семьи в общем режиме (когда воссоединяющий - не гражданин ЕС) делается по <a target=\"_blank\" href=\"https://extranjeros.inclusion.gob.es/es/InformacionInteres/InformacionProcedimientos/Ciudadanosnocomunitarios/hoja012/index.html\">этой процедуре</a>. Прежде всего, воссоединяющий подает заявление на воссоединение в миграционную службу по месту пребывания в Испании. В случае положительного решения воссоединяемый запрашивает визу в консульстве Испании в своей стране. Воссоединяемыми могут быть супруг(а), дети (включая приемных) и родители 65+ при условии их финансовой зависимости от воссоединяющего."
     },
     {
         "id": 91,
@@ -542,7 +542,7 @@
     {
         "id": 109,
         "question": "Можно ли продлить туристическую визу?",
-        "answer": "Да, при определенных обстоятельствах туристический статус в Испании можно продлить на 90 дней. Процедуру смотрите <a target=\"_blank\" href=\"http://extranjeros.mitramiss.gob.es/es/InformacionInteres/InformacionProcedimientos/Ciudadanosnocomunitarios/hoja002/index.html\">здесь</a>."
+        "answer": "Да, при определенных обстоятельствах туристический статус в Испании можно продлить на 90 дней. Процедуру смотрите <a target=\"_blank\" href=\"https://extranjeros.inclusion.gob.es/es/InformacionInteres/InformacionProcedimientos/Ciudadanosnocomunitarios/hoja002/index.html\">здесь</a>."
     },
     {
         "id": 110,
@@ -592,7 +592,7 @@
     {
         "id": 119,
         "question": "Может ли гражданин(ка) страны ЕС привезти в Испанию супругу(а) - не гражданина ЕС?",
-        "answer": "Да, для этого гражданин ЕС должен сам переехать в Испанию и зарегистрироваться в специальном реестре граждан ЕС, постоянно проживающих в Испании (форма <a target=\"_blank\" href=\"https://sede.policia.gob.es/portalCiudadano/extranjeria/EX18.pdf\">EX-18</a>). После этого необходимо, чтобы страна ЕС, гражданством которой Вы обладаете, признала Ваше родство с воссоединяемым членом семьи (супруг(а) или ребёнок). С этими документами воссоединяемый подает документы по <a target=\"_blank\" href=\"http://extranjeros.mitramiss.gob.es/es/InformacionInteres/InformacionProcedimientos/CiudadanosComunitarios/hoja103/index.html\">этой процедуре</a>."
+        "answer": "Да, для этого гражданин ЕС должен сам переехать в Испанию и зарегистрироваться в специальном реестре граждан ЕС, постоянно проживающих в Испании (форма <a target=\"_blank\" href=\"https://sede.policia.gob.es/portalCiudadano/extranjeria/EX18.pdf\">EX-18</a>). После этого необходимо, чтобы страна ЕС, гражданством которой Вы обладаете, признала Ваше родство с воссоединяемым членом семьи (супруг(а) или ребёнок). С этими документами воссоединяемый подает документы по <a target=\"_blank\" href=\"https://extranjeros.inclusion.gob.es/es/InformacionInteres/InformacionProcedimientos/CiudadanosComunitarios/hoja103/index.html\">этой процедуре</a>."
     },
     {
         "id": 120,
@@ -798,5 +798,10 @@
         "id": 160,
         "question": "Растут ли цены на продукты? Есть ли инфляция?",
         "answer": "Вопреки распространённому мнению, в Испании, как и в большинстве других стран, есть инфляция, и как результат - рост цен на продукты питания/бытовые товары в том числе. В зависимости от региона, категории товара и ряда других факторов, рост обычно ставляет 1-3% в год."
+    },
+    {
+        "id": 161,
+        "question": "Существует ли аналог российских ГосУслуг? Где можно сделать те или иные бюрократические процедуры онлайн?",
+        "answer": "Многие(почти все) бюрократические процедуры в Испании можно сделать через интернет, основные сайты для этого: <ul><li><a href=\"https://administracion.gob.es/pag_Home/atencionCiudadana/SedesElectronicas-y-Webs-Publicas/Sedes_Electronicas.html\">Directorio de sedes electrónicas</a></li><li><a href=\"https://sede.administracionespublicas.gob.es/\">Administraciones Publicas</a></li><li><a href=\"https://rec.redsara.es/\">Registro Electronico Comun</a></li></ul> Через последний сайт можно обратиться в любое государственное учереждение Испании по любому вопросу. Для того, чтобы пользоваться данными сайтами необходимо иметь цифровой сертификат."
     }
 ]
